@@ -1,0 +1,4 @@
+<view class="info">{{info}}</view>
+<button wx:if="{{mainbtn.show}}" disabled="{{mainbtn.disabled}}" bindtap="{{mainbtn.function}}">{{mainbtn.text}}</button>
+<button wx:if="{{lessbtn.show}}" class="unless" disabled="{{lessbtn.disabled}}" bindtap="{{lessbtn.function}}">{{lessbtn.text}}</button>
+<view class="des">此示例使用云开发微信支付实现了从付款到退款的整个闭环基础操作流程，后续随着分账等新增能力推出，也会在此示例中进行展示</view>

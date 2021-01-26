@@ -1,0 +1,36 @@
+page{
+  width: calc(100% - 60px);
+  padding: 20px 30px;
+}
+.info{
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+  margin: 40px 0;
+}
+.des{
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 50px;
+  color: #898989;
+}
+button{
+  background-color: #07c160;
+  color: #fff;
+  margin: 20px auto;
+  min-width: 75%;
+  min-height: 50px;
+  line-height: 34px !important;
+}
+.unless{
+  background-color: #f2f2f2;
+  color: #07c160;
+}
+button:active{
+  background-color: #37cf80;
+  color: #fff;
+}
+.unless:active{
+  background-color: #e0e0e0;
+  color: #07c160;
+}
